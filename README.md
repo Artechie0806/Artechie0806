@@ -1,6 +1,6 @@
 # Aryan Rane
 
-CS (AI/ML) undergrad at BVDU, Navi Mumbai, currently interning as an AI engineer on LLM inference infrastructure — the unglamorous-but-satisfying work of making large models run fast and cheap on real hardware (quantization, vLLM, pushing a single 96GB box to ~150 tokens/sec and cutting inference cost ~60%). The rest of my time goes to applied ML and computer vision.
+CS (AI/ML) graduate from BVDU, Navi Mumbai, now an AI engineer working full-time on LLM inference infrastructure — the unglamorous-but-satisfying work of making large models run fast and cheap on real hardware (quantization, vLLM, pushing a single 96GB box to ~150 tokens/sec and cutting inference cost ~60%). The rest of my time goes to applied ML and computer vision.
 
 ### A few things I've built
 
@@ -14,7 +14,6 @@ CS (AI/ML) undergrad at BVDU, Navi Mumbai, currently interning as an AI engineer
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
-
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
@@ -23,7 +22,6 @@ CS (AI/ML) undergrad at BVDU, Navi Mumbai, currently interning as an AI engineer
 ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
 ![YOLO](https://img.shields.io/badge/YOLO-111111?style=for-the-badge)
 ![MediaPipe](https://img.shields.io/badge/MediaPipe-0097A7?style=for-the-badge)
-
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
@@ -31,7 +29,6 @@ CS (AI/ML) undergrad at BVDU, Navi Mumbai, currently interning as an AI engineer
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![FAISS](https://img.shields.io/badge/FAISS-0866FF?style=for-the-badge)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
