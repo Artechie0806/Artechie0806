@@ -1,6 +1,6 @@
 # Aryan Rane
 
-CS (AI/ML) graduate from BVDU, Navi Mumbai, now an AI engineer working full-time on LLM inference infrastructure — the unglamorous-but-satisfying work of making large models run fast and cheap on real hardware (quantization, vLLM, pushing a single 96GB box to ~150 tokens/sec and cutting inference cost ~60%). The rest of my time goes to applied ML and computer vision.
+BTech CS (AIML) graduate, now an AI engineer working full-time on LLM inference infrastructure — the unglamorous-but-satisfying work of making large models run fast and cheap on real hardware (quantization, vLLM, pushing a single 96GB box to ~150 tokens/sec and cutting inference cost ~60%). The rest of my time goes to applied ML and computer vision.
 
 ### A few things I've built
 
