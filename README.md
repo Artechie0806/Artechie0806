@@ -4,7 +4,8 @@ BTech CS (AIML) graduate, now an AI engineer working full-time on LLM inference 
 
 ### A few things I've built
 
-- **[Local Voice RAG Assistant](https://github.com/Artechie0806/AI-code-Documentation-and-QA)** — ask questions about your own documents by voice or text, fully offline, with inline citations. No cloud, no API keys. Hybrid dense + BM25 retrieval behind a LangGraph agent.
+- **[DataScribe](https://github.com/Artechie0806/DataScribe)** — 7-agent LLM pipeline (router, SQL author, SQL critic, chart, narrator) over DuckDB. Read-only connection, single-SELECT guard, row caps, interrupt timeouts, and a deterministic layer that vetoes any model-proposed chart not matching the actual result shape. Exposes generated SQL and source rows behind every answer.
+- **[Local Voice RAG Assistant](https://github.com/Artechie0806/Voice-Document-RAG)** — ask questions about your own documents by voice or text, fully offline, with inline citations. No cloud, no API keys. Hybrid dense + BM25 retrieval behind a LangGraph agent.
 - **[Fact-Checked Research Agent](https://github.com/Artechie0806/Research-Agent)** — searches the web, drafts *atomic* claims, then hands each one to an isolated verifier that only sees that claim and its cited sources — and has to paste a verbatim supporting quote or the claim gets dropped. Runs entirely on a self-hosted Qwen model, with every LLM call budgeted to fit a 16k-token window. Keyless DuckDuckGo search, streamed live to a browser UI.
 - **[Hazardous Asteroid Detection](https://github.com/Artechie0806/Asteroid-prediction)** — random forest trained on ~958k NASA records to spot potentially hazardous near-Earth objects. 94.7% accuracy after a lot of cleaning.
 - **[MURA X-Ray Classification](https://github.com/Artechie0806/MURA-X-Ray-Classification-Efficientnet-)** — EfficientNet-B0 transfer-learning pipeline for musculoskeletal abnormalities, 85%+ on the MURA validation set.
