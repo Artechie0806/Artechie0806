@@ -246,10 +246,10 @@ def build_cover(animated=True):
     b = [f'<rect width="{W}" height="{H}" fill="{PAPER}"/>']
 
     # halftone wash + speed lines behind the logo
-    b.append(f'<g class="fade"><circle cx="866" cy="204" r="98" fill="url(#tone)"/></g>')
-    for i in range(13):
-        y = 62 + i * 10.5 + rng.uniform(-2, 2)
-        x2 = 640 + rng.uniform(0, 120)
+    b.append(f'<g class="fade"><circle cx="806" cy="116" r="88" fill="url(#tone)"/></g>')
+    for i in range(10):
+        y = 56 + i * 10.5 + rng.uniform(-2, 2)
+        x2 = 690 + rng.uniform(0, 110)
         b.append(f'<line x1="{962 - rng.uniform(0,30):.0f}" y1="{y:.0f}" x2="{x2:.0f}" y2="{y:.0f}" '
                  f'stroke="{INK}" stroke-width="{rng.uniform(1.4,3.0):.1f}" stroke-linecap="round" '
                  f'opacity="0.22" pathLength="1" class="draw" style="animation-delay:{i*0.03:.2f}s"/>')
@@ -260,10 +260,10 @@ def build_cover(animated=True):
 
     # top strapline
     b.append(f'<g class="fade" style="animation-delay:.5s">'
-             + txt(30, 42, "THE ONGOING ADVENTURES OF AN AGENT WRANGLER", size=11.5,
-                   fill=INK, ls=1.6, maxw=400, force=True) + '</g>')
+             + txt(30, 42, "SOFTWARE DEVELOPER / AI-ML ENGINEER", size=11.5,
+                   fill=INK, ls=1.6, maxw=330, force=True) + '</g>')
     b.append(f'<g class="fade" style="animation-delay:.5s">'
-             + txt(W-30, 42, "NO. 01  \u00b7  NAVI MUMBAI", size=11.5, anchor="end", ls=1.6, maxw=190, force=True) + '</g>')
+             + txt(W-30, 42, "NAVI MUMBAI, INDIA", size=11.5, anchor="end", ls=1.6, maxw=168, force=True) + '</g>')
 
     # corner box (portfolio monogram)
     cb = (f'<path d="{wob_rect(30, 62, 92, 92, rng, amp=1.4, step=24)}" fill="{PAPER}" '
@@ -279,23 +279,14 @@ def build_cover(animated=True):
     b.append(anchored(148, 130, "pop", 0.12, logo))
 
     # banner
-    ban = (f'<path d="M 142 176 L 700 170 L 704 214 L 146 220 Z" fill="{INK}"/>'
-           + txt(166, 205, "AGENTIC LLM SYSTEMS  \u00b7  INFERENCE INFRA", size=23, fam=DISPLAY,
-                 fill=PAPER, ls=1.6, maxw=516, force=True))
+    ban = (f'<path d="M 142 176 L 884 168 L 888 214 L 146 222 Z" fill="{INK}"/>'
+           + txt(166, 206, "AGENTIC AI SYSTEMS  \u00b7  LLM INFERENCE INFRASTRUCTURE", size=25,
+                 fam=DISPLAY, fill=PAPER, ls=1.6, maxw=696, force=True))
     b.append(f'<g class="rise" style="animation-delay:.35s">{ban}</g>')
 
     b.append(f'<g class="fade" style="animation-delay:.6s">'
-             + txt(150, 250, "B.TECH CS (AIML)  \u00b7  AI ENGINEER AT INNOVITI  \u00b7  MULTI-AGENT PIPELINES",
-                   size=12.5, fill=INK, ls=0.8, maxw=560, force=True) + '</g>')
-
-    # starburst
-    st = (f'<path d="{star(858, 214, 78, 52, 13, rng)}" fill="{RED}" stroke="{INK}" '
-          f'stroke-width="3" stroke-linejoin="round"/>'
-          + txt(858, 202, "OPEN TO", size=18, fam=DISPLAY, anchor="middle", fill=PAPER, ls=1, maxw=74, force=True)
-          + txt(858, 230, "AI-ML ROLES!", size=22, fam=DISPLAY, anchor="middle", fill=PAPER, ls=1, maxw=116, force=True))
-    b.append(anchored(858, 214, "pop", 0.55,
-                      f'<g class="beat" style="transform-origin:858px 214px">{st}</g>'
-                      if animated else st))
+             + txt(150, 252, "B.TECH CS (AIML)  \u00b7  AI ENGINEER AT INNOVITI TECHNOLOGIES",
+                   size=12.5, fill=INK, ls=0.8, maxw=530, force=True) + '</g>')
 
     # barcode, because every cover has one
     bars = []
@@ -308,7 +299,7 @@ def build_cover(animated=True):
              + txt(30, 254, "ARTECHIE0806", size=10, ls=1.6) + '</g>')
 
     return page(W, H, "\n".join("  " + x for x in b), animated,
-                "Comic cover: Aryan Rane, AI engineer, agentic LLM systems and inference infrastructure, open to roles")
+                "Comic cover: Aryan Rane, software developer and AI-ML engineer, agentic AI systems and LLM inference infrastructure")
 
 
 # ------------------------------------------------------------ strip: day job
